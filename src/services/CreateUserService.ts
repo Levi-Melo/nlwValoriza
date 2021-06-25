@@ -8,7 +8,7 @@ interface IUserRequest {
 }
 
 export class CreateUserService {
-  async excute({ name, email, admin }: IUserRequest) {
+  async execute({ name, email, admin }: IUserRequest) {
     const usersRepositories = getCustomRepository(UsersRepositories);
     const userAlreadyExists = await usersRepositories.findOne({ email });
 
