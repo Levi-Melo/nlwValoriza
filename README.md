@@ -25,6 +25,8 @@ Create an api with get and post methods allowing register user, compliments to u
 
 ## Geting started
 
-- yarn
-- yarn typeorm migration:run
-- yarn dev
+- Rode yarn para baixar as dependências
+- Rode yarn typeorm migration:run para criar as tabelas do banco de dados.
+- Rode o yarn dev para iniciar a aplicação.
+
+
